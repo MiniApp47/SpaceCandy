@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       products: [
         {
           id: "Chocolat et Bueno White",
-          name: "Chocolat et Bueno White 🍪",
+          name: "Chocolat et Bueno White 🤍",
           farm: "Cookies 💗",
           type: "Gâteaux",
           selectionType: "Cookies",
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Pistache éclat pistache",
-          name: "Pistache éclat pistache 🍪",
+          name: "Pistache éclat pistache 🧆",
           farm: "Cookies 💗",
           type: "Gâteaux",
           selectionType: "Cookies",
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Nutella kinder Bueno",
-          name: "Nutella kinder Bueno 🍪",
+          name: "Nutella kinder Bueno 🍩",
           farm: "Cookies 💗",
           type: "Gâteaux",
           selectionType: "Cookies",
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Spéculos",
-          name: "Spéculos 🍪",
+          name: "Spéculos 🥮",
           farm: "Cookies 💗",
           type: "Gâteaux",
           selectionType: "Cookies",
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "MMS caramel beurre salé",
-          name: "MMS caramel beurre salé 🍪",
+          name: "MMS caramel beurre salé 🍮",
           farm: "Cookies 💗",
           type: "Gâteaux",
           selectionType: "Cookies",
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Chocolat blanc / framboise",
-          name: "Chocolat blanc / framboise 🍪",
+          name: "Chocolat blanc / framboise 🍇",
           farm: "Cookies 💗",
           type: "Gâteaux",
           selectionType: "Cookies",
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Reese’s peanut butter",
-          name: "Reese’s peanut butter 🍪",
+          name: "Reese’s peanut butter 🥞",
           farm: "Cookies 💗",
           type: "Gâteaux",
           selectionType: "Cookies",
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
       products: [
        {
           id: "Reese’s peanut butter",
-          name: "Reese’s peanut butter 🍫",
+          name: "Reese’s peanut butter 🧈",
           farm: "Brownies 🧱",
           type: "Gâteaux",
           selectionType: "Brownies",
@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Bueno / country / nutella",
-          name: "Bueno / country / nutella 🍫",
+          name: "Bueno / country / nutella 🌾",
           farm: "Brownies 🧱",
           type: "Gâteaux",
           selectionType: "Brownies",
@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", function () {
       products: [
         {
           id: "Chocolat blanc/  noix de coco",
-          name: "Chocolat blanc / noix de coco 🧁",
+          name: "Chocolat blanc / noix de coco 🥥",
           farm: "Muffin 🍰",
           type: "Gâteaux",
           selectionType: "Muffins",
@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Nutella kinder Bueno",
-          name: "Nutella kinder Bueno 🧁",
+          name: "Nutella kinder Bueno 🌰",
           farm: "Muffin 🍰",
           type: "Gâteaux",
           selectionType: "Muffins",
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "Pistache",
-          name: "Pistache 🧁",
+          name: "Pistache 🥜",
           farm: "Muffin 🍰",
           type: "Gâteaux",
           selectionType: "Muffins",
@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", function () {
       products: [
          {
           id: "Goût Vanille",
-          name: "Goût Vanille ❤️",
+          name: "Goût Vanille 🍨",
           farm: "Red Velvet 🍦",
           type: "Gâteaux",
           selectionType: "Cake & Red Velvet",
