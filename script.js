@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 100);
 
   const contactLinks = [
- {
+    {
       name: "TELEGRAM 🌐",
       url: "https://t.me/+37S_cu57XqNmMDBk",
       id: "telegram",
@@ -31,314 +31,519 @@ document.addEventListener("DOMContentLoaded", function () {
       className: "potato",
       text: "POTATO 💬",
     },
-
   ]; // Renseigner les comptes officiels SpaceCandy uniquement.
 
   const appData = [
-  {
-    "id": "GATEAUX",
-    "name": "🍰 GÂTEAUX",
-    "type": "Gâteaux",
-    "quality": "Gâteaux",
-    "image": "CategGateaux.png",
-    "products": [
+    {
+      id: "COOKIES",
+      name: "🍪 COOKIES",
+      type: "COOKIES",
+      quality: "COOKIES",
+      image: "",
+      products: [
+        {
+          id: "Chocolat et Bueno White",
+          name: "Chocolat et Bueno White 🍪",
+          farm: "Cookies 💗",
+          type: "Gâteaux",
+          selectionType: "Cookies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductCB.jpg",
+          images: ["ProductCB2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "Plateau de 3", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Pistache éclat pistache",
+          name: "Pistache éclat pistache 🍪",
+          farm: "Cookies 💗",
+          type: "Gâteaux",
+          selectionType: "Cookies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductPP.jpg",
+          images: ["ProductPP2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "Plateau de 3", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Nutella kinder Bueno",
+          name: "Nutella kinder Bueno 🍪",
+          farm: "Cookies 💗",
+          type: "Gâteaux",
+          selectionType: "Cookies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductNKB.jpg",
+          images: ["ProductNKB2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "Plateau de 3", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Spéculos",
+          name: "Spéculos 🍪",
+          farm: "Cookies 💗",
+          type: "Gâteaux",
+          selectionType: "Cookies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductS.jpg",
+          images: ["ProductS2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "Plateau de 3", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "MMS caramel beurre salé",
+          name: "MMS caramel beurre salé 🍪",
+          farm: "Cookies 💗",
+          type: "Gâteaux",
+          selectionType: "Cookies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductMCB.jpg",
+          images: ["ProductMCB2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "Plateau de 3", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Chocolat blanc / framboise",
+          name: "Chocolat blanc / framboise 🍪",
+          farm: "Cookies 💗",
+          type: "Gâteaux",
+          selectionType: "Cookies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductCBF.jpg",
+          images: ["ProductCBF2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "Plateau de 3", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Reese’s peanut butter",
+          name: "Reese’s peanut butter 🍪",
+          farm: "Cookies 💗",
+          type: "Gâteaux",
+          selectionType: "Cookies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductRPB.jpg",
+          images: ["ProductRPB2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "Plateau de 3", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+      ],
+    },
+    {
+      id: "BROWNIES",
+      name: "🧱 BROWNIES",
+      type: "BROWNIES",
+      quality: "BROWNIES",
+      image: "",
+      products: [
+       {
+          id: "Reese’s peanut butter",
+          name: "Reese’s peanut butter 🍫",
+          farm: "Brownies 🧱",
+          type: "Gâteaux",
+          selectionType: "Brownies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductRPBB.jpg",
+          images: ["ProductRPBB2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "3 pièces", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Bueno / country / nutella",
+          name: "Bueno / country / nutella 🍫",
+          farm: "Brownies 🧱",
+          type: "Gâteaux",
+          selectionType: "Brownies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductBCN.jpg",
+          images: ["ProductBCN2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "3 pièces", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Choco Blanc / Bueno",
+          name: "Choco Blanc / Bueno 🍫",
+          farm: "Brownies 🧱",
+          type: "Gâteaux",
+          selectionType: "Brownies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductNCB.jpg",
+          images: ["ProductNCB2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "3 pièces", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        /* {
+          id: "Nutella / country / Bueno",
+          name: "Nutella / country / Bueno 🍫",
+          farm: "Brownies 🧱",
+          type: "Gâteaux",
+          selectionType: "Brownies",
+          featured: true,
+          promoEligible: false,
+          image: "ProductNCB.jpg",
+          images: ["ProductNCB2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "3 pièces", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        }, */
+      ],
+    },
+    {
+      id: "MUFFIN",
+      name: "🍰 MUFFIN",
+      type: "MUFFIN",
+      quality: "MUFFIN",
+      image: "",
+      products: [
+        {
+          id: "Chocolat blanc/  noix de coco",
+          name: "Chocolat blanc / noix de coco 🧁",
+          farm: "Muffin 🍰",
+          type: "Gâteaux",
+          selectionType: "Muffins",
+          featured: true,
+          promoEligible: false,
+          image: "ProductCN.jpg",
+          images: ["ProductCN2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "3 pièces", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Nutella kinder Bueno",
+          name: "Nutella kinder Bueno 🧁",
+          farm: "Muffin 🍰",
+          type: "Gâteaux",
+          selectionType: "Muffins",
+          featured: true,
+          promoEligible: false,
+          image: "ProductNKBN.jpg",
+          images: ["ProductNKBN2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "3 pièces", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+        {
+          id: "Pistache",
+          name: "Pistache 🧁",
+          farm: "Muffin 🍰",
+          type: "Gâteaux",
+          selectionType: "Muffins",
+          featured: true,
+          promoEligible: false,
+          image: "ProductP.jpg",
+          images: ["ProductP2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 pièce", price: 15 },
+            { weight: "3 pièces", price: 40 },
+            { weight: "10 pièces", price: 120 },
+          ],
+        },
+      ],
+    },
       {
-        "id": "cookies",
-        "name": "Cookies 🍪",
-        "farm": "SpaceCandy 💗",
-        "type": "Gâteaux",
-        "selectionType": "Cookies",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 30 mg par gâteau. ",
-        "tarifs": [
-          {
-            "weight": "1 pièce",
-            "price": 15
-          },
-          {
-            "weight": "Plateau de 3",
-            "price": 40
-          },
-          {
-            "weight": "10 pièces",
-            "price": 120
-          }
-        ]
-      },
-      {
-        "id": "cake",
-        "name": "Cake 🍰",
-        "farm": "SpaceCandy 💗",
-        "type": "Gâteaux",
-        "selectionType": "Cake & Red Velvet",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 30 mg par gâteau. ",
-        "tarifs": [
-          {
-            "weight": "1 part",
-            "price": 20
-          },
-          {
-            "weight": "3 parts",
-            "price": 50
-          },
-          {
-            "weight": "10 parts",
-            "price": 140
-          }
-        ]
-      },
-      {
-        "id": "red-velvet",
-        "name": "Red Velvet ❤️",
-        "farm": "SpaceCandy 💗",
-        "type": "Gâteaux",
-        "selectionType": "Cake & Red Velvet",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 30 mg par gâteau. ",
-        "tarifs": [
-          {
-            "weight": "1 part",
-            "price": 20
-          },
-          {
-            "weight": "3 parts",
-            "price": 50
-          },
-          {
-            "weight": "10 parts",
-            "price": 140
-          }
-        ]
-      },
-      {
-        "id": "muffin",
-        "name": "Muffin 🧁",
-        "farm": "SpaceCandy 💗",
-        "type": "Gâteaux",
-        "selectionType": "Muffins",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 30 mg par gâteau. ",
-        "tarifs": [
-          {
-            "weight": "1 pièce",
-            "price": 15
-          },
-          {
-            "weight": "3 pièces",
-            "price": 40
-          },
-          {
-            "weight": "10 pièces",
-            "price": 120
-          }
-        ]
-      },
-      {
-        "id": "brownies",
-        "name": "Brownies 🍫",
-        "farm": "SpaceCandy 💗",
-        "type": "Gâteaux",
-        "selectionType": "Brownies",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 30 mg par gâteau. ",
-        "tarifs": [
-          {
-            "weight": "1 pièce",
-            "price": 15
-          },
-          {
-            "weight": "3 pièces",
-            "price": 40
-          },
-          {
-            "weight": "10 pièces",
-            "price": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "BONBONS",
-    "name": "🍬 BONBONS",
-    "type": "Bonbons",
-    "quality": "Bonbons",
-    "image": "CategBonbons.png",
-    "products": [
-      {
-        "id": "bonbon",
-        "name": "Bonbons assortis 🍬",
-        "farm": "SpaceCandy 💗",
-        "type": "Bonbons",
-        "selectionType": "Bonbons",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 50 mg par sachet de 3 pièces. ",
-        "tarifs": [
-          {
-            "weight": "5 pièces",
-            "price": 30
-          },
-          {
-            "weight": "10 pièces",
-            "price": 50
-          }
-        ]
-      },
-      {
-        "id": "sucette",
-        "name": "Sucettes 🍭",
-        "farm": "SpaceCandy 💗",
-        "type": "Bonbons",
-        "selectionType": "Sucettes",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "",
-        "tarifs": [
-          {
-            "weight": "1 pièce",
-            "price": 5
-          },
-          {
-            "weight": "5 pièces",
-            "price": 20
-          }
-        ]
-      },
-      {
-        "id": "pomme",
-        "name": "Bonbons pomme 🍏",
-        "farm": "SpaceCandy 💗",
-        "type": "Bonbons",
-        "selectionType": "Bonbons",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 50 mg par sachet de 3 pièces. ",
-        "tarifs": [
-          {
-            "weight": "5 pièces",
-            "price": 30
-          },
-          {
-            "weight": "10 pièces",
-            "price": 50
-          }
-        ]
-      },
-      {
-        "id": "coca",
-        "name": "Bonbons cola 🥤",
-        "farm": "SpaceCandy 💗",
-        "type": "Bonbons",
-        "selectionType": "Bonbons",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 50 mg par sachet de 3 pièces. ",
-        "tarifs": [
-          {
-            "weight": "5 pièces",
-            "price": 30
-          },
-          {
-            "weight": "10 pièces",
-            "price": 50
-          }
-        ]
-      },
-      {
-        "id": "fraise",
-        "name": "Bonbons fraise 🍓",
-        "farm": "SpaceCandy 💗",
-        "type": "Bonbons",
-        "selectionType": "Bonbons",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "Dosage : 50 mg par sachet de 3 pièces. ",
-        "tarifs": [
-          {
-            "weight": "5 pièces",
-            "price": 30
-          },
-          {
-            "weight": "10 pièces",
-            "price": 50
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "CHOCOLAT",
-    "name": "🍫 CHOCOLAT",
-    "type": "Chocolat",
-    "quality": "Chocolat",
-    "image": "CategChocolat.png",
-    "products": [
-      {
-        "id": "mini-chocolat",
-        "name": "Tablette mini 🍫",
-        "farm": "SpaceCandy 💗",
-        "type": "Chocolat",
-        "selectionType": "Chocolat",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "",
-        "tarifs": [
-          {
-            "weight": "1 tablette mini",
-            "price": 10
-          }
-        ]
-      },
-      {
-        "id": "grande-chocolat",
-        "name": "Grande tablette 🍫",
-        "farm": "SpaceCandy 💗",
-        "type": "Chocolat",
-        "selectionType": "Chocolat",
-        "featured": true,
-        "promoEligible": false,
-        "image": "",
-        "video": "",
-        "description": "",
-        "tarifs": [
-          {
-            "weight": "1 grande tablette",
-            "price": 20
-          }
-        ]
-      }
-    ]
-  }
-];
+      id: "RED VELVET ❤️",
+      name: "RED VELVET ❤️",
+      type: "RED VELVET ❤️",
+      quality: "RED VELVET ❤️",
+      image: "",
+      products: [
+         {
+          id: "Goût Vanille",
+          name: "Goût Vanille ❤️",
+          farm: "Red Velvet 🍦",
+          type: "Gâteaux",
+          selectionType: "Cake & Red Velvet",
+          featured: true,
+          promoEligible: false,
+          image: "ProductGV.jpg",
+          images: ["ProductGV2.jpg"],
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            { weight: "1 part", price: 20, },
+            { weight: "3 parts", price: 50, },
+            { weight: "10 parts", price: 140, },
+          ],
+        },
+      ],
+    },
+
+
+     /* {
+          id: "cake",
+          name: "Cake 🍰",
+          farm: "SpaceCandy 💗",
+          type: "Gâteaux",
+          selectionType: "Cake & Red Velvet",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            {
+              weight: "1 part",
+              price: 20,
+            },
+            {
+              weight: "3 parts",
+              price: 50,
+            },
+            {
+              weight: "10 parts",
+              price: 140,
+            },
+          ],
+        },
+        {
+          id: "red-velvet",
+          name: "Red Velvet ❤️",
+          farm: "SpaceCandy 💗",
+          type: "Gâteaux",
+          selectionType: "Cake & Red Velvet",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "Dosage : 30 mg par gâteau. ",
+          tarifs: [
+            {
+              weight: "1 part",
+              price: 20,
+            },
+            {
+              weight: "3 parts",
+              price: 50,
+            },
+            {
+              weight: "10 parts",
+              price: 140,
+            },
+          ],
+        }, */
+    {
+      id: "BONBONS",
+      name: "🍬 BONBONS",
+      type: "Bonbons",
+      quality: "Bonbons",
+      image: "CategBonbons.png",
+      products: [
+        {
+          id: "bonbon",
+          name: "Bonbons assortis 🍬",
+          farm: "SpaceCandy 💗",
+          type: "Bonbons",
+          selectionType: "Bonbons",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "Dosage : 50 mg par sachet de 3 pièces. ",
+          tarifs: [
+            {
+              weight: "5 pièces",
+              price: 30,
+            },
+            {
+              weight: "10 pièces",
+              price: 50,
+            },
+          ],
+        },
+        {
+          id: "sucette",
+          name: "Sucettes 🍭",
+          farm: "SpaceCandy 💗",
+          type: "Bonbons",
+          selectionType: "Sucettes",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "",
+          tarifs: [
+            {
+              weight: "1 pièce",
+              price: 5,
+            },
+            {
+              weight: "5 pièces",
+              price: 20,
+            },
+          ],
+        },
+        {
+          id: "pomme",
+          name: "Bonbons pomme 🍏",
+          farm: "SpaceCandy 💗",
+          type: "Bonbons",
+          selectionType: "Bonbons",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "Dosage : 50 mg par sachet de 3 pièces. ",
+          tarifs: [
+            {
+              weight: "5 pièces",
+              price: 30,
+            },
+            {
+              weight: "10 pièces",
+              price: 50,
+            },
+          ],
+        },
+        {
+          id: "coca",
+          name: "Bonbons cola 🥤",
+          farm: "SpaceCandy 💗",
+          type: "Bonbons",
+          selectionType: "Bonbons",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "Dosage : 50 mg par sachet de 3 pièces. ",
+          tarifs: [
+            {
+              weight: "5 pièces",
+              price: 30,
+            },
+            {
+              weight: "10 pièces",
+              price: 50,
+            },
+          ],
+        },
+        {
+          id: "fraise",
+          name: "Bonbons fraise 🍓",
+          farm: "SpaceCandy 💗",
+          type: "Bonbons",
+          selectionType: "Bonbons",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "Dosage : 50 mg par sachet de 3 pièces. ",
+          tarifs: [
+            {
+              weight: "5 pièces",
+              price: 30,
+            },
+            {
+              weight: "10 pièces",
+              price: 50,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "CHOCOLAT",
+      name: "🍫 CHOCOLAT",
+      type: "Chocolat",
+      quality: "Chocolat",
+      image: "CategChocolat.png",
+      products: [
+        {
+          id: "mini-chocolat",
+          name: "Tablette mini 🍫",
+          farm: "SpaceCandy 💗",
+          type: "Chocolat",
+          selectionType: "Chocolat",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "",
+          tarifs: [
+            {
+              weight: "1 tablette mini",
+              price: 10,
+            },
+          ],
+        },
+        {
+          id: "grande-chocolat",
+          name: "Grande tablette 🍫",
+          farm: "SpaceCandy 💗",
+          type: "Chocolat",
+          selectionType: "Chocolat",
+          featured: true,
+          promoEligible: false,
+          image: "",
+          video: "",
+          description: "",
+          tarifs: [
+            {
+              weight: "1 grande tablette",
+              price: 20,
+            },
+          ],
+        },
+      ],
+    },
+  ];
 
   // --- VARIABLES D'ÉTAT ---
   let cart = [];
@@ -355,8 +560,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let notificationTimeout = null; // Timer pour la notification panier
   let selectedFreeGift = ""; // Poche offerte choisie par le client
   let rouletteSpun = false; // Est-ce que la roulette a déjà été jouée
-let rouletteWon = false; // Résultat de la roulette
-const roulettePrizeLabel = "🎁 Cadeau"; // Lot affiché si le client gagne
+  let rouletteWon = false; // Résultat de la roulette
+  const roulettePrizeLabel = "🎁 Cadeau"; // Lot affiché si le client gagne
 
   // --- DÉFINIS TES CODES PROMO ICI ---
   const validPromoCodes = {};
@@ -399,9 +604,9 @@ const roulettePrizeLabel = "🎁 Cadeau"; // Lot affiché si le client gagne
 
   // --- NAVIGATION ---
   function showPage(pageId) {
-     document.querySelectorAll('video').forEach(video => {
-            video.pause();
-        });
+    document.querySelectorAll("video").forEach((video) => {
+      video.pause();
+    });
 
     pages.forEach((p) => p.classList.remove("active"));
     // S'assure que la page existe avant de l'activer
@@ -528,46 +733,47 @@ const roulettePrizeLabel = "🎁 Cadeau"; // Lot affiché si le client gagne
     }
   }
 
-function renderCategoryList() {
+  function renderCategoryList() {
     productListContainer.innerHTML = "";
 
     const searchTerm = currentFilters.searchTerm.toLowerCase().trim();
     let hasResults = false;
 
     function createProductCard(product) {
-        const card = document.createElement("div");
-        card.className = "product-card product-item-card";
-        card.dataset.productId = product.id;
+      const card = document.createElement("div");
+      card.className = "product-card product-item-card";
+      card.dataset.productId = product.id;
 
-        if (product.type === "Pack" || product.id === "PackNoel2025") {
-            card.classList.add("full-width");
-        }
+      if (product.type === "Pack" || product.id === "PackNoel2025") {
+        card.classList.add("full-width");
+      }
 
-        if (product.clickable === false) {
-            card.classList.add("unclickable");
-        }
+      if (product.clickable === false) {
+        card.classList.add("unclickable");
+      }
 
-        const flagHTML = product.flag
-            ? `<span class="product-flag">${product.flag}</span>`
-            : "";
+      const flagHTML = product.flag
+        ? `<span class="product-flag">${product.flag}</span>`
+        : "";
 
-        const mediaHTML = product.image
-            ? `<div class="product-media"><img src="${product.image}" alt="${product.name}"></div>`
-            : `<div class="product-media product-media-empty"></div>`;
+      const mediaHTML = product.image
+        ? `<div class="product-media"><img src="${product.image}" alt="${product.name}"></div>`
+        : `<div class="product-media product-media-empty"></div>`;
 
-        const firstTarif = product.tarifs && product.tarifs.length > 0
-            ? product.tarifs[0]
-            : null;
+      const firstTarif =
+        product.tarifs && product.tarifs.length > 0 ? product.tarifs[0] : null;
 
-        const priceHTML = firstTarif && typeof firstTarif.price === "number"
-            ? firstTarif.price.toFixed(2) + "€"
-            : "";
+      const priceHTML =
+        firstTarif && typeof firstTarif.price === "number"
+          ? firstTarif.price.toFixed(2) + "€"
+          : "";
 
-            const favoriteBadgeHTML = product.customerFavorite === true
-    ? `<div class="customer-favorite-badge">❤️ PRÉFÉRÉ DES CLIENTS</div>`
-    : "";
+      const favoriteBadgeHTML =
+        product.customerFavorite === true
+          ? `<div class="customer-favorite-badge">❤️ PRÉFÉRÉ DES CLIENTS</div>`
+          : "";
 
-        card.innerHTML = `
+      card.innerHTML = `
     ${mediaHTML}
     ${favoriteBadgeHTML}
 
@@ -578,133 +784,138 @@ function renderCategoryList() {
     </div>
 `;
 
-        return card;
+      return card;
     }
 
     appData.forEach((category) => {
-        let productsInCategory = [];
+      let productsInCategory = [];
 
-        if (category.products) {
-            productsInCategory = category.products.map((product) => ({
-                product,
-                category,
-            }));
-        }
+      if (category.products) {
+        productsInCategory = category.products.map((product) => ({
+          product,
+          category,
+        }));
+      }
 
-        if (category.farms) {
-            category.farms.forEach((farm) => {
-                farm.products.forEach((product) => {
-                    productsInCategory.push({
-                        product,
-                        category,
-                        farm,
-                    });
-                });
+      if (category.farms) {
+        category.farms.forEach((farm) => {
+          farm.products.forEach((product) => {
+            productsInCategory.push({
+              product,
+              category,
+              farm,
             });
-        }
-
-        const filteredProducts = productsInCategory.filter(({ product, category }) => {
-            const productName = product.name ? product.name.toLowerCase() : "";
-            const productFarm = product.farm ? product.farm.toLowerCase() : "";
-            const categoryName = category.name ? category.name.toLowerCase() : "";
-            const selectionType = product.selectionType ? product.selectionType.toLowerCase() : "";
-
-            const searchMatch =
-                searchTerm === "" ||
-                productName.includes(searchTerm) ||
-                productFarm.includes(searchTerm) ||
-                categoryName.includes(searchTerm) ||
-                selectionType.includes(searchTerm);
-
-            let selectMatch = true;
-
-            if (currentFilters.quality === "chef") {
-                selectMatch = product.featured === true;
-            } else if (currentFilters.quality !== "all") {
-                selectMatch = product.selectionType === currentFilters.quality;
-            }
-
-            return searchMatch && selectMatch;
+          });
         });
+      }
 
-        if (filteredProducts.length === 0) return;
+      const filteredProducts = productsInCategory.filter(
+        ({ product, category }) => {
+          const productName = product.name ? product.name.toLowerCase() : "";
+          const productFarm = product.farm ? product.farm.toLowerCase() : "";
+          const categoryName = category.name ? category.name.toLowerCase() : "";
+          const selectionType = product.selectionType
+            ? product.selectionType.toLowerCase()
+            : "";
 
-        hasResults = true;
+          const searchMatch =
+            searchTerm === "" ||
+            productName.includes(searchTerm) ||
+            productFarm.includes(searchTerm) ||
+            categoryName.includes(searchTerm) ||
+            selectionType.includes(searchTerm);
 
-        const section = document.createElement("section");
-        section.className = `home-category-section category-${category.id}`;
+          let selectMatch = true;
 
-        // ✅ BLANCHE / CC uniquement : affichage normal sans séparation
-          if (category.id !== "HASH" && category.id !== "BEUH") {
-            section.innerHTML = `
+          if (currentFilters.quality === "chef") {
+            selectMatch = product.featured === true;
+          } else if (currentFilters.quality !== "all") {
+            selectMatch = product.selectionType === currentFilters.quality;
+          }
+
+          return searchMatch && selectMatch;
+        },
+      );
+
+      if (filteredProducts.length === 0) return;
+
+      hasResults = true;
+
+      const section = document.createElement("section");
+      section.className = `home-category-section category-${category.id}`;
+
+      // ✅ BLANCHE / CC uniquement : affichage normal sans séparation
+      if (category.id !== "HASH" && category.id !== "BEUH") {
+        section.innerHTML = `
                 <h2 class="home-category-title">${category.name}</h2>
                 <div class="home-products-grid"></div>
             `;
 
-            const grid = section.querySelector(".home-products-grid");
+        const grid = section.querySelector(".home-products-grid");
 
-            filteredProducts.forEach(({ product }) => {
-                grid.appendChild(createProductCard(product));
-            });
+        filteredProducts.forEach(({ product }) => {
+          grid.appendChild(createProductCard(product));
+        });
 
-            productListContainer.appendChild(section);
-            return;
-        }
+        productListContainer.appendChild(section);
+        return;
+      }
 
-        // ✅ HASH et BEUH : affichage séparé par selectionType
-        section.innerHTML = `
+      // ✅ HASH et BEUH : affichage séparé par selectionType
+      section.innerHTML = `
             <h2 class="home-category-title">${category.name}</h2>
             <div class="home-selection-groups"></div>
         `;
 
-        const groupsContainer = section.querySelector(".home-selection-groups");
-        const groupedProducts = {};
+      const groupsContainer = section.querySelector(".home-selection-groups");
+      const groupedProducts = {};
 
-        filteredProducts.forEach(({ product }) => {
-            const groupName = product.selectionType || product.type || "Autres";
+      filteredProducts.forEach(({ product }) => {
+        const groupName = product.selectionType || product.type || "Autres";
 
-            if (!groupedProducts[groupName]) {
-                groupedProducts[groupName] = [];
-            }
+        if (!groupedProducts[groupName]) {
+          groupedProducts[groupName] = [];
+        }
 
-            groupedProducts[groupName].push(product);
-        });
+        groupedProducts[groupName].push(product);
+      });
 
-        Object.keys(groupedProducts).forEach((groupName) => {
-    const groupBlock = document.createElement("div");
-    groupBlock.className = "selection-group-block";
+      Object.keys(groupedProducts).forEach((groupName) => {
+        const groupBlock = document.createElement("div");
+        groupBlock.className = "selection-group-block";
 
-    // Transforme le nom de la séparation en classe CSS propre
-    const groupClass = groupName
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-+|-+$/g, "");
+        // Transforme le nom de la séparation en classe CSS propre
+        const groupClass = groupName
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "");
 
-    groupBlock.classList.add(`group-${groupClass}`);
+        groupBlock.classList.add(`group-${groupClass}`);
 
-    groupBlock.innerHTML = `
+        groupBlock.innerHTML = `
         <h3 class="selection-group-title">${groupName}</h3>
         <div class="home-products-grid"></div>
     `;
 
-            const grid = groupBlock.querySelector(".home-products-grid");
+        const grid = groupBlock.querySelector(".home-products-grid");
 
-            groupedProducts[groupName].forEach((product) => {
-                grid.appendChild(createProductCard(product));
-            });
-
-            groupsContainer.appendChild(groupBlock);
+        groupedProducts[groupName].forEach((product) => {
+          grid.appendChild(createProductCard(product));
         });
 
-        productListContainer.appendChild(section);
+        groupsContainer.appendChild(groupBlock);
+      });
+
+      productListContainer.appendChild(section);
     });
 
     if (!hasResults) {
-        productListContainer.innerHTML = '<p class="no-results">Aucun produit trouvé.</p>';
+      productListContainer.innerHTML =
+        '<p class="no-results">Aucun produit trouvé.</p>';
     }
-}
+  }
   // --- NOUVELLE FONCTION ---
   // Affiche la liste des FARMS pour une catégorie
   // --- FONCTION MODIFIÉE : Affichage liste bouton ---
@@ -1156,8 +1367,10 @@ function renderCategoryList() {
       )
       .join("");
 
-      if (canChooseFreeGift() && selectedFreeGift) {
-    itemsList.insertAdjacentHTML('beforeend', `
+    if (canChooseFreeGift() && selectedFreeGift) {
+      itemsList.insertAdjacentHTML(
+        "beforeend",
+        `
         <div class="cart-item">
             <div class="item-details" style="background: linear-gradient(180deg, #ffcc00, #ff6900); color: #000;">
                 <div><strong>🎁 Cadeau</strong></div>
@@ -1165,10 +1378,13 @@ function renderCategoryList() {
                 <div>Prix : 0.00€</div>
             </div>
         </div>
-    `);
+    `,
+      );
 
-    if (rouletteWon) {
-    itemsList.insertAdjacentHTML("beforeend", `
+      if (rouletteWon) {
+        itemsList.insertAdjacentHTML(
+          "beforeend",
+          `
         <div class="cart-item">
             <div class="item-details" style="background: linear-gradient(180deg, #111, #ffcc00); color: #000;">
                 <div><strong>🎰 Roulette pour les commandes a plus de 100€</strong></div>
@@ -1176,9 +1392,10 @@ function renderCategoryList() {
                 <div>Prix : 0.00€</div>
             </div>
         </div>
-    `);
-}
-}
+    `,
+        );
+      }
+    }
 
     // UI Promo
     const promoInputContainer = document.getElementById(
@@ -1290,20 +1507,20 @@ function renderCategoryList() {
     });
 
     const selectionTypes = [
-  ...new Set(
-    allNestedProducts
-      .map((product) => product.selectionType)
-      .filter((type) => type && type.trim() !== "")
-  ),
-];
+      ...new Set(
+        allNestedProducts
+          .map((product) => product.selectionType)
+          .filter((type) => type && type.trim() !== ""),
+      ),
+    ];
 
-const typeOptions = selectionTypes
-  .map((type) => {
-    return `<option value="${type}">${type}</option>`;
-  })
-  .join("");
+    const typeOptions = selectionTypes
+      .map((type) => {
+        return `<option value="${type}">${type}</option>`;
+      })
+      .join("");
 
-qualityFilter.innerHTML = `
+    qualityFilter.innerHTML = `
     <option value="all">⭐ TOUT VOIR</option>
     <option value="chef">💖 SÉLECTION SPACE CANDY</option>
     ${typeOptions}
@@ -1387,17 +1604,19 @@ qualityFilter.innerHTML = `
     return false;
   }
 
-  function getFreeGiftHTML() { return ""; }
+  function getFreeGiftHTML() {
+    return "";
+  }
 
   function getCartTotal() {
     return cart.reduce((sum, item) => sum + item.totalPrice, 0);
-}
+  }
 
-function canShowRoulette() {
+  function canShowRoulette() {
     return false;
-}
+  }
 
-function getRouletteHTML() {
+  function getRouletteHTML() {
     return `
         <div class="roulette-box roulette-disabled">
             <h4>🎰 Roulette cadeau</h4>
@@ -1419,14 +1638,13 @@ function getRouletteHTML() {
             </button>
         </div>
     `;
-}
+  }
 
-
-function spinRewardRoulette() {
+  function spinRewardRoulette() {
     showNotification("🔒 Roulette indisponible pour le moment.");
-}
+  }
 
-/* function spinRewardRoulette() {
+  /* function spinRewardRoulette() {
     if (!canShowRoulette() || rouletteSpun) return;
 
     const wheel = document.getElementById("roulette-wheel");
@@ -1557,16 +1775,16 @@ function spinRewardRoulette() {
     });
 
     if (canChooseFreeGift() && selectedFreeGift) {
-    message += `*🎁 CADEAU*\n`;
-    message += `• Choix: ${selectedFreeGift}\n`;
-    message += `• Prix: 0.00€\n\n`;
+      message += `*🎁 CADEAU*\n`;
+      message += `• Choix: ${selectedFreeGift}\n`;
+      message += `• Prix: 0.00€\n\n`;
     }
 
     if (rouletteWon) {
-    message += `*🎰 ROULETTE \n`;
-    message += `• Résultat: ${roulettePrizeLabel}\n`;
-    message += `• Prix: 0.00€\n\n`;
-}
+      message += `*🎰 ROULETTE \n`;
+      message += `• Résultat: ${roulettePrizeLabel}\n`;
+      message += `• Prix: 0.00€\n\n`;
+    }
 
     // Résumé financier
     // Si promo, on affiche le détail, sinon juste le total
@@ -1624,7 +1842,10 @@ function spinRewardRoulette() {
   const WHATSAPP_NUMBER = ""; // Remplace par ton numéro, sans + ni espace
 
   function openWhatsAppContact() {
-    if (!WHATSAPP_NUMBER) { showNotification("Contact SpaceCandy à configurer."); return; }
+    if (!WHATSAPP_NUMBER) {
+      showNotification("Contact SpaceCandy à configurer.");
+      return;
+    }
     const message = formatOrderMessage();
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
@@ -1645,7 +1866,8 @@ function spinRewardRoulette() {
       const channelLink = "";
 
       // Ouvre le lien via Telegram
-      if (channelLink) tg.openLink(channelLink); else showNotification("Lien officiel à configurer.");
+      if (channelLink) tg.openLink(channelLink);
+      else showNotification("Lien officiel à configurer.");
     });
   }
 
@@ -1671,40 +1893,39 @@ function spinRewardRoulette() {
     });
   };
 
-
   function validateCustomerAddress() {
-    const addressInput = document.getElementById('customer-address');
-    const addressError = document.getElementById('address-error');
+    const addressInput = document.getElementById("customer-address");
+    const addressError = document.getElementById("address-error");
 
     if (!addressInput) return true;
 
     const address = addressInput.value.trim();
 
     if (address.length < 5) {
-        if (addressError) {
-            addressError.style.display = 'block';
-        }
+      if (addressError) {
+        addressError.style.display = "block";
+      }
 
-        addressInput.style.border = '2px solid #ff5252';
-        addressInput.focus();
+      addressInput.style.border = "2px solid #ff5252";
+      addressInput.focus();
 
-        showNotification('📍 Merci de remplir ton adresse avant de commander.');
+      showNotification("📍 Merci de remplir ton adresse avant de commander.");
 
-        if (window.Telegram && window.Telegram.WebApp && tg.HapticFeedback) {
-            tg.HapticFeedback.notificationOccurred('error');
-        }
+      if (window.Telegram && window.Telegram.WebApp && tg.HapticFeedback) {
+        tg.HapticFeedback.notificationOccurred("error");
+      }
 
-        return false;
+      return false;
     }
 
     if (addressError) {
-        addressError.style.display = 'none';
+      addressError.style.display = "none";
     }
 
-    addressInput.style.border = '1px solid #ff6900';
+    addressInput.style.border = "1px solid #ff6900";
 
     return true;
-}
+  }
   // --- GESTION DES ÉVÉNEMENTS ---
 
   // Clics sur la barre de navigation
@@ -1757,10 +1978,10 @@ function spinRewardRoulette() {
     const target = e.target;
 
     const rouletteBtn = target.closest("#roulette-spin-btn");
-if (rouletteBtn) {
-    spinRewardRoulette();
-    return;
-}
+    if (rouletteBtn) {
+      spinRewardRoulette();
+      return;
+    }
 
     // Gère l'accordéon sur la page contact
     const accordionHeader = target.closest(".accordion-header");
@@ -1958,15 +2179,15 @@ if (rouletteBtn) {
       showPage("page-cart");
     }
     // Clic sur WhatsApp
-    if (target.closest('#confirm-whatsapp')) {
-    if (!validateCustomerAddress()) {
-        showPage('page-cart');
+    if (target.closest("#confirm-whatsapp")) {
+      if (!validateCustomerAddress()) {
+        showPage("page-cart");
         return;
-    }
+      }
 
-    openWhatsAppContact();
-    return;
-}
+      openWhatsAppContact();
+      return;
+    }
 
     // Clic sur un produit DANS un Pack
     if (target.closest(".pack-item-btn")) {
