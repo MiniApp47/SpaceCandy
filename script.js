@@ -18,6 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const contactLinks = [
     {
+      name: "WHATSAPP 📞",
+      url: "https://wa.me/33759010537",
+      id: "whatsapp",
+      className: "whatsapp",
+      text: "WHATSAPP 📞",
+    },
+    {
       name: "TELEGRAM 🌐",
       url: "https://t.me/+37S_cu57XqNmMDBk",
       id: "telegram",
@@ -1839,7 +1846,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // --- WHATSAPP CONTACT SAFE ---
-  const WHATSAPP_NUMBER = ""; // Remplace par ton numéro, sans + ni espace
+  const WHATSAPP_NUMBER = "33759010537"; // Remplace par ton numéro, sans + ni espace
 
   function openWhatsAppContact() {
     if (!WHATSAPP_NUMBER) {
