@@ -30,7 +30,7 @@
             padding: 0;
             overscroll-behavior-y: none;
             /* FOND D'ÉCRAN */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Fondecran.png');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('FondecranA.png');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -1982,7 +1982,6 @@
     
 /* SpaceCandy identity — logo colors */
 :root {--background-color:#100821;--secondary-bg-color:#26123f;--tertiary-bg-color:#40215e;--text-color:#fff6ff;--hint-color:#d5b8e7;--accent-color:#ff3bbd;--green-color:#1fe9f1;--red-color:#ff4f83}
-body {background-image:linear-gradient(180deg,rgba(14,6,37,.88),rgba(22,4,48,.94)),url('Fondecran.png');}
 .page-header {background:linear-gradient(100deg,#220a55,#db198f)}
 .top-marquee {background:linear-gradient(90deg,#ff32b8,#fa91e9,#12dff4);color:#23052f}
 #page-home .home-header {background:linear-gradient(#ed25b16b,transparent)}
@@ -2020,10 +2019,101 @@ body {background-image:linear-gradient(180deg,rgba(14,6,37,.88),rgba(22,4,48,.94
 #space-flyer-full{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
 #space-flyer-close{position:fixed;top:12px;right:14px;background:#ff29b6;color:#fff;border:1px solid #fff;border-radius:50%;height:42px;width:42px;font-size:24px;cursor:pointer;z-index:10000}
 
+
+/* ===== SPACE CANDY • HALLOWEEN NEON EDITION ===== */
+:root {
+ --background-color:#14081f; --secondary-bg-color:#281134;
+ --tertiary-bg-color:#392044; --accent-color:#ff65c9;
+ --hint-color:#dec0ea;
+}
+
+.page-header {background:linear-gradient(95deg,#311048,#8e227b,#281047)!important;border-bottom:1px solid #ff8a33;}
+.top-marquee {background:linear-gradient(90deg,#612285,#ff65c9,#fc9134,#ff65c9,#612285)!important;color:#230920!important;box-shadow:0 0 15px #ff6bcd88;}
+#page-home .home-header {background:linear-gradient(180deg,#64257b99,transparent)!important;}
+.home-logo,#page-info .contact-logo,#page-contact .contact-logo {box-shadow:0 0 15px 2px #ff5cc9,0 0 22px #fe953677!important;}
+.home-category-title {background:linear-gradient(90deg,#251037,#ff63bf,#ff9b38,#ff63bf,#251037)!important;box-shadow:0 0 13px #ff5bc899,0 0 7px #ff932f77!important;color:#200a2a!important;border:1px solid #ffc0e9;}
+.product-card {background:linear-gradient(160deg,#49215b,#230f35 62%,#161025)!important;border:1px solid #ff68c7!important;box-shadow:0 0 12px #ff45bd55, inset 0 0 14px #ef83ff1c!important;}
+.product-card .price,.product-details .farm {color:#ffb354!important;}
+.tarif-item {background:linear-gradient(145deg,#4e1b63,#220c33)!important;border:2px solid #ff7bc7!important;box-shadow:0 0 10px #fc56bf55;}
+.add-to-cart-btn,.main-action-btn {background:linear-gradient(105deg,#fc6bba,#f98a35)!important;color:#240929!important;border:1px solid #ffd3f4!important;box-shadow:0 0 13px #ff6fbe7a!important;font-weight:800;}
+.bottom-nav {background:#210d34ed!important;border-top:1px solid #f878c9;box-shadow:0 -4px 19px #ff4bc444!important;}
+.nav-item {background:#39184a!important;color:#ffb5e3!important;box-shadow:0 0 10px #f75ab855!important;border:1px solid #77396b;}
+.nav-item.active {color:#fff!important;background:linear-gradient(150deg,#d8399e,#6c2ba0)!important;border-color:#ffa84d;}
+#page-info .contact-card,#page-contact .contact-card {background:#210d31dd!important;box-shadow:0 0 13px #ff5dbb77!important;border:1px solid #f46dc1;}
+.space-flyer {border-color:#ff9537!important;box-shadow:0 0 17px #ff79c788!important;}
+#notification-toast {background:#60247ce8!important;border:1px solid #ffb15e!important;}
+.halloween-sky {position:fixed;inset:0 0 auto;z-index:49;pointer-events:none;height:135px;overflow:hidden;opacity:.9;}
+.halloween-sky span {position:absolute;filter:drop-shadow(0 0 7px #ff83d5);animation:spooky-float 5s ease-in-out infinite;font-size:23px;}
+.halloween-sky span:nth-child(1){top:10px;left:5%;animation-delay:-1s}
+.halloween-sky span:nth-child(2){top:57px;right:5%;animation-delay:-3s}
+.halloween-sky span:nth-child(3){top:93px;left:3%;font-size:17px;animation-delay:-2s}
+.halloween-sky span:nth-child(4){top:96px;right:3%;font-size:19px;animation-delay:-4s}
+@keyframes spooky-float {0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(11px) rotate(8deg)}}
+@media(prefers-reduced-motion:reduce){.halloween-sky span{animation:none}}
+/* ===== FIN THEME HALLOWEEN ===== */
+
+
+/* ===== HALLOWEEN XXL • decorations visibles sur TOUTE la boutique ===== */
+#page-home .halloween-hero {
+ margin: 13px 14px 5px; padding: 14px 12px 13px;
+ border: 2px solid #ff9a35; border-radius: 22px;
+ background: radial-gradient(circle at top right,#ff8c35aa,transparent 38%),linear-gradient(115deg,#230a39,#60204f 60%,#241047);
+ box-shadow: 0 0 22px #ff8f46a0, inset 0 0 22px #f94da944;
+ color:#fff;text-align:center;position:relative;overflow:hidden;
+}
+.halloween-hero:before,.halloween-hero:after{position:absolute;font-size:36px;filter:drop-shadow(0 0 8px #ffac44);top:18px}
+.halloween-hero:before{content:'🎃';left:7px}.halloween-hero:after{content:'👻';right:7px}
+.halloween-hero .halloween-kicker{font-weight:900;font-size:10px;letter-spacing:2px;color:#ffbd73;text-transform:uppercase}
+.halloween-hero strong{display:block;font-weight:1000;font-size:clamp(20px,6vw,29px);line-height:1.15;letter-spacing:1px;text-shadow:0 0 8px #ff53b9,0 0 20px #fc50b5;margin:6px 37px}
+.halloween-hero .halloween-sub{font-size:12px;font-weight:700;color:#ffe0f3}
+.halloween-hero .halloween-icons{margin-top:9px;letter-spacing:10px;font-size:18px;animation:halloween-pulse 3s ease-in-out infinite}
+@keyframes halloween-pulse{50%{filter:drop-shadow(0 0 8px orange);transform:scale(1.035)}}
+/* Separations de categories : citrouilles, fantomes et toiles d'araignee */
+#page-home .home-category-section{position:relative;margin-top:20px;padding-top:36px;gap:14px!important;
+ background:radial-gradient(ellipse at 50% 18%,#f4499b13,transparent 62%);}
+#page-home .home-category-section::before{
+ content:'🕸️  🦇  🎃  🕸️  👻  🦇  🕸️';
+ position:absolute;left:0;right:0;top:0;text-align:center;white-space:nowrap;
+ font-size:clamp(15px,4.7vw,21px);letter-spacing:3px;
+ filter:drop-shadow(0 0 5px #ff79c3);
+}
+#page-home .home-category-section .home-category-title{
+ position:relative;margin:3px 7px 0!important;
+ padding:20px 39px!important;
+ border:2px solid #ffae54!important;border-radius:19px!important;
+ background:linear-gradient(100deg,#34104c 0%,#932c84 25%,#fc6fbb 50%,#9b3985 75%,#34104c 100%)!important;
+ color:#fff!important;font-size:clamp(16px,5vw,23px)!important;
+ text-shadow:0 2px 4px #380a41,0 0 6px #ff9d59!important;
+ box-shadow:0 0 15px #ff67ba,0 0 25px #ff9a3f77,inset 0 0 14px #ff9d4860!important;
+}
+#page-home .home-category-title::before,#page-home .home-category-title::after{
+ position:absolute;top:50%;transform:translateY(-50%);font-size:clamp(21px,7vw,34px);
+ filter:drop-shadow(0 0 6px orange);text-shadow:none;
+}
+#page-home .home-category-title::before{content:'🎃';left:4px}
+#page-home .home-category-title::after{content:'👻';right:4px}
+#page-home .home-products-grid{padding-top:10px!important}
+#page-home .home-category-section .product-card{border:2px solid #f877c9!important;box-shadow:0 0 15px #f958ac77,0 5px 18px #080214!important;overflow:hidden}
+#page-home .home-category-section .product-card::after{
+ content:'🕷️';position:absolute;top:4px;left:6px;z-index:3;font-size:18px;
+ filter:drop-shadow(0 0 6px #ff8a4e);pointer-events:none;
+}
+#page-home .home-category-section:nth-child(even) .product-card::after{content:'🦇'}
+#page-home .home-category-section:nth-child(3n) .product-card::after{content:'🍬'}
+/* Les decorations couvrent aussi le panier, les pages produit et infos */
+#page-product .page-header::before,#page-cart .page-header::before,#page-info .page-header::before{content:'🎃';font-size:21px;margin-right:6px}
+#page-product .product-details{border:2px solid #ff9a44!important;box-shadow:0 0 15px #ff69c977!important}
+#page-info .contact-card::before{content:'🦇  🎃  👻  HALLOWEEN  👻  🎃  🦇';display:block;text-align:center;color:#ffcae5;font-weight:900;letter-spacing:.5px;margin-bottom:10px;font-size:12px}
+#page-home .filter-select-wrapper{border:1px solid #fa9a54;box-shadow:0 0 12px #fa74c34d}
+@media(max-width:365px){#page-home .home-category-section::before{letter-spacing:0;font-size:16px}.halloween-hero:before,.halloween-hero:after{font-size:28px}}
+@media(prefers-reduced-motion:reduce){.halloween-hero .halloween-icons{animation:none}}
+/* ===== FIN HALLOWEEN XXL ===== */
+
 </style>
 </head>
 
 <body>
+    <div class="halloween-sky" aria-hidden="true"><span>🎃</span><span>👻</span><span>🦇</span><span>🍬</span></div>
     <div id="page-contact" class="page">
         <div class="page-content">
             <img src="LogoReel.jpg" alt="Logo" class="contact-logo">
@@ -2184,6 +2274,12 @@ body {background-image:linear-gradient(180deg,rgba(14,6,37,.88),rgba(22,4,48,.94
             </button>
         </div>
 
+        <div class="halloween-hero" aria-label="Édition Halloween SpaceCandy">
+            <div class="halloween-kicker">🕸️ Édition spéciale Halloween 🕸️</div>
+            <strong>SPACE CANDY<br>HALLOWEEN 🎃</strong>
+            <div class="halloween-sub">Des gourmandises et des frissons ! 🍭</div>
+            <div class="halloween-icons" aria-hidden="true">👻 🦇 🍬 🎃</div>
+        </div>
         <div class="filters">
             <div class="filter-input-wrapper" style="display:none ;">
                 <svg width="20" height="20">
