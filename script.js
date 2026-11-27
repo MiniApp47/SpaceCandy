@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const tg = window.Telegram.WebApp;
   tg.ready();
   tg.expand();
-  tg.setHeaderColor("#180b35");
-  tg.setBackgroundColor("#100821");
+  tg.setHeaderColor("#351753");
+  tg.setBackgroundColor("#150a28");
 
   const progressBar = document.getElementById("myBar");
   const loader = document.getElementById("page-loader");
